@@ -13,3 +13,22 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.home, .intro-regolamento, .regolamento {
+    margin-bottom: 2em;
+}
+
+.intro-regolamento ul {
+    padding-left: 1.5em;
+    list-style-type: disc;
+}
+
+.intro-regolamento a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro-regolamento a:hover {
+    text-decoration: underline;
+}
