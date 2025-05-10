@@ -1,14 +1,14 @@
 
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Rubik', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background-color: #0d0d0d;
-    color: white;
+    background-color: #000000;
+    color: #ffd700;
     padding: 1em;
     text-align: center;
 }
@@ -28,7 +28,10 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+        color: #ffd700;
+        transform: scale(1.1);
+        box-shadow: 0 0 30px #ffd700;
+        background-color: #ffffff22;   
 }
 
 main {
@@ -57,7 +60,7 @@ footer {
 }
 
 .logo {
-    height: 60px;
+    height: 80px;
     width: auto;
 }
 
@@ -78,4 +81,23 @@ footer {
 
 .intro-regolamento a:hover {
     text-decoration: underline;
+}
+
+/* media query per dispositivi mobile(768px) */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+        padding: 0;
+    }
+
+    .logo-container {
+        justify-content: center;
+    }
 }
