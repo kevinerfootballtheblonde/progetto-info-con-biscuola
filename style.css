@@ -83,9 +83,6 @@ footer {
     text-decoration: underline;
 }
 
-.classifica{
-    color: red;
-}
 
 /* media query per dispositivi mobile(768px) */
 
@@ -157,4 +154,36 @@ footer {
 .bottone-hover:hover {
     font-size: 20px;
     padding: 15px 30px;
+}
+
+.classifica{
+    color: black
+}
+
+.mytab{
+    border-collapse: collapse;
+}
+.larghezza-mytab{
+    width: 300px;
+}
+.mytab tr,.mytab td {
+    text-align: center;
+} 
+
+.bottone-img {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bottone-img img {
+    width: 100px; /* dimensione dell'immagine */
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bottone-img:hover img {
+    transform: translateY(-5px); /* si solleva di 5px */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* ombra per effetto "rialzo" */
 }
