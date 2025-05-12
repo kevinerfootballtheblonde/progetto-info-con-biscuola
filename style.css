@@ -105,3 +105,39 @@ footer {
         justify-content: center;
     }
 }
+
+/* tendina */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d0d0d;
+}
+
+.dropdown-content a {
+    color: white;
+    
+}
+
+.dropdown-content a:hover {
+    background-color: #ffd700;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
