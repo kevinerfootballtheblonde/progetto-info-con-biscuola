@@ -83,6 +83,10 @@ footer {
     text-decoration: underline;
 }
 
+.classifica{
+    color: red;
+}
+
 /* media query per dispositivi mobile(768px) */
 
 @media (max-width: 768px) {
