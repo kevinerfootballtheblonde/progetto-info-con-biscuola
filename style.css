@@ -28,10 +28,10 @@ nav a {
 }
 
 nav a:hover {
-        color: #ffd700;
-        transform: scale(1.1);
-        box-shadow: 0 0 30px #ffd700;
-        background-color: #ffffff22;   
+    color: #ffd700;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #ffd700;
+    background-color: #ffffff22;   
 }
 
 main {
@@ -163,9 +163,11 @@ footer {
 .mytab{
     border-collapse: collapse;
 }
+
 .larghezza-mytab{
     width: 300px;
 }
+
 .mytab tr,.mytab td {
     text-align: center;
 } 
@@ -187,3 +189,4 @@ footer {
     transform: translateY(-5px); /* si solleva di 5px */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* ombra per effetto "rialzo" */
 }
+
