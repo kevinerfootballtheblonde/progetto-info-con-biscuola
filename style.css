@@ -27,10 +27,15 @@ nav a {
     font-weight: bold;
 }
 
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+
 nav a:hover {
     color: #ffd700;
     transform: scale(1.1);
-    box-shadow: 0 0 30px #ffd700;
     background-color: #ffffff22;   
 }
 
@@ -154,6 +159,23 @@ footer {
 .bottone-hover:hover {
     font-size: 20px;
     padding: 15px 30px;
+}
+
+.bottone-hover2 {
+    font-size: 12px;
+    padding: 15px 10px;
+    transition: all 0.3s ease;
+}
+
+.bottone-hover2:hover {
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+.nav-a2 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .classifica{
