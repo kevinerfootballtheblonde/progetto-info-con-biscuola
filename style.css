@@ -36,7 +36,7 @@ nav a {
 nav a:hover {
     color: #ffd700;
     transform: scale(1.1);
-    background-color: #ffffff22;   
+    background-color: black;   
 }
 
 main {
@@ -176,6 +176,12 @@ footer {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.nav-a2:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+    background-color: white;   
 }
 
 .classifica{
